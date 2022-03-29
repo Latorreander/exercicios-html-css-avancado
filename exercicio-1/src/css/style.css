@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 100%;
+  font-family: "Public Sans", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5rem;
+  align-items: center;
+}
+
+.cabecalho .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 0.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+}
+
+.menu a:hover {
+  padding: 1rem 3rem;
+  background-color: #5bc241;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.menu li a.btn {
+  font-weight: 300;
+  background-color: #5bc241;
+  padding: 1rem 2.1rem;
+  color: #fff;
+  border-radius: 1rem;
+  margin-left: 2.5rem;
+}
+
+.menu li a.btn:hover {
+  color: #000;
+}
