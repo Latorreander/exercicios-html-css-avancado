@@ -1,0 +1,70 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-areas: "video-destaque propaganda"
+                         "video-destaque conteudo-lateral";
+    grid-template-columns: 1fr 270px; 
+    grid-template-rows: 56px 1fr; 
+    column-gap: 17px; 
+    row-gap: 20px;                        
+}
+
+.video-destaque{
+    grid-area: video-destaque;
+}
+
+.video-destaque .descricao-video h1{
+    font-size: 18px;
+    margin: 12px 0 7px; 
+}
+
+.video-area img{
+    width: 100%;
+}
+
+.video-destaque .descricao-video .visualizacoes{
+    font-size: 14px;
+    margin: 7px 0 9px;
+}
+
+.video-destaque .descricao-video .sobre{
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+.conteudo-lateral{
+    grid-area: conteudo-lateral;
+}
+
+.propaganda{
+    grid-area: propaganda;
+}
+
+.video{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.descricao-video-miniatura h2{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.descricao-video-miniatura p{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+main{
+    background-color: #f7f7f7;
+    max-width: 900px;
+    max-height: 415px;
+    padding: 38px 35px 19px;
+}
+
+
+
